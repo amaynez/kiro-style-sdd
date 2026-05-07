@@ -21,11 +21,35 @@ These skills are structured using the open Agent Skills standard and are compati
 
 ## Installation & Setup
 
-If you are using this repository directly, the skills are already configured.
+You can install these skills using npm or manually copy them to your project.
 
-To install these skills in another repository, copy the contents of the `.skills/` directory to your project root or your global agent configuration folder (e.g., `~/.claude/skills/` or `~/.cursor/rules/`).
+### NPM Installation
 
-The agent configurations for different clients exist in their respective hidden directories at the root of this project (e.g., `.claude`, `.cursor`, `.kiro`).
+**Local Installation (Recommended)**
+To install the skills locally in your project, run:
+```bash
+npm install amaynez-sdd
+```
+
+**Global Installation**
+To install the skills globally on your machine, run:
+```bash
+npm install -g amaynez-sdd
+```
+
+### Manual Installation
+
+If you prefer not to use npm, or if you are using this repository directly (where the skills are already configured), you can manually copy the skills into your project or global agent configuration:
+
+1. Clone or download this repository.
+2. Copy the entire contents of the `.skills/` directory.
+3. Paste the contents into one of the following locations depending on your AI agent:
+   - **Project Root**: `.skills/` (Works automatically for many standard agents)
+   - **Claude Code**: `~/.claude/skills/` (Global configuration)
+   - **Cursor**: `.cursor/rules/` (Project-level configuration)
+   - **Kiro**: `.kiro/skills/` (Project-level configuration)
+
+*Note: The agent configurations for different clients exist in their respective hidden directories at the root of this project (e.g., `.claude`, `.cursor`, `.kiro`).*
 
 ## Usage
 
