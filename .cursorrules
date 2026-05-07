@@ -1,0 +1,10 @@
+# Spec Driven Development Agent Rules
+
+When the user types one of the following slash commands, you must immediately activate the corresponding skill by reading the instructions in the specified `.skills` directory:
+
+- `/spec`: Triggers the requirements gathering skill. Read `.skills/spec/SKILL.md` to begin.
+- `/design`: Triggers the technical design skill. Read `.skills/design/SKILL.md` to begin.
+- `/plan`: Triggers the implementation plan skill. Read `.skills/plan/SKILL.md` to begin.
+- `/implement`: Triggers the task execution skill. Read `.skills/implement/SKILL.md` to begin.
+
+Always respect the detailed workflows and constraints described in the `SKILL.md` files. Do not deviate from the templates provided inside the respective skill directories.
