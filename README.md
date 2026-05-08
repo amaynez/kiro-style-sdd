@@ -1,5 +1,7 @@
 # Spec Driven Development (SDD) Agent Skills
 
+*This methodology was inspired by how Kiro, the AI IDE from Amazon, does Spec Driven Development (SDD).*
+
 This repository provides native "Agent Skills" to guide AI Agents through the Spec Driven Development (SDD) methodology. By leveraging these skills, you can predictably and systematically transform a rough feature idea into an actionable, test-driven implementation.
 
 ## Overview of Skills
