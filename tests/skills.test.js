@@ -10,10 +10,10 @@ test('verify skills structure', async (t) => {
   for (const skill of expectedSkills) {
     await t.test(`skill "${skill}" should exist and have SKILL.md`, () => {
       const skillPath = path.join(skillsDir, skill);
-      assert.ok(fs.existsSync(skillPath), `Directory .skills/${skill} should exist`);
+      assert.ok(fs.existsSync(skillPath) && fs.statSync(skillPath).isDirectory(), `Directory .skills/${skill} should exist`);
 
       const skillFile = path.join(skillPath, 'SKILL.md');
-      assert.ok(fs.existsSync(skillFile), `File .skills/${skill}/SKILL.md should exist`);
+      assert.ok(fs.existsSync(skillFile) && fs.statSync(skillFile).isFile(), `File .skills/${skill}/SKILL.md should be a regular file`);
     });
   }
 });

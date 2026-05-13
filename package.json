@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node --test"
   },
+  "engines": {
+    "node": ">=18.1.0"
+  },
   "author": "Armando Maynez",
   "license": "MIT"
 }
