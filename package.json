@@ -4,7 +4,10 @@
   "description": "This repository provides native \"Agent Skills\" to guide AI Agents through the Spec Driven Development (SDD) methodology.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.1.0"
   },
   "author": "Armando Maynez",
   "license": "MIT"
