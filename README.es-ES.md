@@ -4,13 +4,13 @@
 
 *Esta metodología se inspiró en cómo Kiro, el IDE de IA de Amazon, realiza el Desarrollo Guiado por Especificaciones (SDD).*
 
-Este repositorio proporciona "Habilidades de Agente" nativas para guiar a los Agentes de IA a través de la metodología de Desarrollo Guiado por Especificaciones (SDD). Al aprovechar estas habilidades, puedes transformar de manera predecible y sistemática una idea básica de función en una implementación ejecutable y orientada a pruebas.
+Este repositorio proporciona "Habilidades de Agente" nativas para guiar a los Agentes de IA a través de la metodología de Desarrollo Guiado por Especificaciones (SDD). Al aprovechar estas habilidades, puedes transformar de manera predecible y sistemática una idea básica de funcionalidad en una implementación ejecutable y orientada a pruebas.
 
 ## Resumen de las Habilidades
 
-La metodología SDD se ha modernizado en cuatro habilidades distintas, accesibles a través de comandos con barra invertida en los agentes de IA compatibles:
+La metodología SDD se ha modernizado en cuatro habilidades distintas, accesibles a través de comandos con barra inclinada en los agentes de IA compatibles:
 
-1. **/spec**: Transforma una idea básica de función en un documento de requisitos estructurado utilizando el formato EARS.
+1. **/spec**: Transforma una idea básica de funcionalidad en un documento de requisitos estructurado utilizando el formato EARS.
 2. **/design**: Desarrolla un documento de diseño técnico exhaustivo (arquitectura, modelos de datos, componentes) basado en los requisitos aprobados.
 3. **/plan**: Crea un plan de implementación ejecutable, generando una lista de tareas optimizada para agentes de codificación con IA.
 4. **/implement**: Ejecuta una única tarea de codificación del plan de implementación, garantizando un alcance adecuado, pruebas tempranas y validación continua.
